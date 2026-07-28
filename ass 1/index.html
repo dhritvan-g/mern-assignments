@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dhritvan Garg — Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="navbar">
+  <div class="nav-container">
+    <a href="#" class="nav-logo">~/<b>Dhritvan-Garg</b></a>
+    <nav class="nav-tabs">
+      <a href="#education">education.md</a>
+      <a href="#skills">skills.md</a>
+      <a href="#projects">projects.md</a>
+      <a href="#contact">contact.md</a>
+    </nav>
+    <button id="themeToggleBtn" class="theme-btn" aria-label="Toggle theme">☀️</button>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section class="hero" id="about">
+    <div class="terminal">
+      <div class="terminal-bar">
+        <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+      </div>
+      <div class="terminal-body">
+        <div><span class="prompt">$</span> whoami</div>
+        <div class="out">Dhritvan Garg</div>
+        <div><span class="prompt">$</span> cat role.txt</div>
+        <div class="out">BTech CSE (AI/ML) — Chitkara University, 3rd Semester</div>
+        <div><span class="prompt">$</span> status --current<span class="cursor"></span></div>
+        <div class="out">Building across ML, NLP, and front-end web</div>
+      </div>
+    </div>
+    <p class="bio">
+      Engineering student working across machine learning, NLP, and web
+      development. I like finishing small projects end to end — from a spam
+      classifier trained on real data to simple sites that solve an actual
+      problem.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-solid">View Projects</a>
+      <a href="#contact" class="btn btn-line">Contact Me</a>
+    </div>
+  </section>
+
+  <section class="section" id="education">
+    <div class="eyebrow">$ cat education.log</div>
+    <h2>Education</h2>
+    <div class="edu-row">
+      <div class="edu-left">
+        <h3>Chitkara University</h3>
+        <p>BTech, Computer Science Engineering — AI/ML Specialization</p>
+      </div>
+      <div class="edu-right">5th Sem · current</div>
+    </div>
+    <div class="edu-row">
+      <div class="edu-left">
+        <h3>Class 12th</h3>
+        <p>Senior Secondary Education</p>
+      </div>
+      <div class="edu-right">62%</div>
+    </div>
+    <div class="edu-row">
+      <div class="edu-left">
+        <h3>Class 10th</h3>
+        <p>Secondary Education</p>
+      </div>
+      <div class="edu-right">81%</div>
+    </div>
+  </section>
+
+  <section class="section" id="skills">
+    <div class="eyebrow">$ ls skills/</div>
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-top"><h3>Python</h3><span class="level intermediate">intermediate</span></div>
+        <div class="skill-tags"><span>Pandas</span><span>NumPy</span></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-top"><h3>Machine Learning</h3><span class="level intermediate">intermediate</span></div>
+        <div class="skill-tags"><span>Scikit-learn</span><span>TF-IDF</span><span>NLP</span></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-top"><h3>Deep Learning</h3><span class="level learning">learning</span></div>
+        <div class="skill-tags"><span>PyTorch</span><span>TensorFlow</span><span>Keras</span></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-top"><h3>Java</h3><span class="level proficient">proficient</span></div>
+        <div class="skill-tags"><span>OOP</span></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-top"><h3>Database Management</h3><span class="level intermediate">intermediate</span></div>
+        <div class="skill-tags"><span>SQL</span></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-top"><h3>Front End</h3><span class="level intermediate">intermediate</span></div>
+        <div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-top"><h3>Backend</h3><span class="level learning">learning</span></div>
+        <div class="skill-tags"><span>Node.js</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="projects">
+    <div class="eyebrow">$ ls projects/</div>
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <article class="project-card">
+        <span class="project-tag">// nlp · machine learning</span>
+        <h3>Email Spam/Ham Detection</h3>
+        <p>A text classification model that flags emails as spam or ham using TF-IDF vectorization and a machine learning classifier trained on labeled email data.</p>
+        <div class="project-tech"><span>Python</span><span>Scikit-learn</span><span>TF-IDF</span><span>NLP</span></div>
+      </article>
+      <article class="project-card">
+        <span class="project-tag">// web · html & css</span>
+        <h3>Blood Donation Management</h3>
+        <p>A front-end site for coordinating blood donations — connecting donors and recipients through a simple, clean interface.</p>
+        <div class="project-tech"><span>HTML</span><span>CSS</span></div>
+      </article>
+      <article class="project-card">
+        <span class="project-tag">// web · html & css</span>
+        <h3>CookBook</h3>
+        <p>A recipe-sharing website where users can browse and share recipes, built with a focus on clean layout and easy navigation.</p>
+        <div class="project-tech"><span>HTML</span><span>CSS</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="eyebrow">$ contact --open</div>
+    <h2>Contact</h2>
+    <div class="contact-card">
+      <p>email: gargdhritvan369@gmail.com</p>
+      <p>location: Chitkara University, Punjab, India</p>
+      <div class="social-links">
+        <a href="https://github.com/dhritvan-g" class="social-btn">GitHub</a>
+        <a href="#" class="social-btn">LinkedIn</a>
+        <a href="mailto:gargdhritvan369@gmail.com" class="social-btn solid">Send Email</a>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>© 2026 dhritvan garg /footer>
+
+<script src="script.js"></script>
+</body>
+</html>
