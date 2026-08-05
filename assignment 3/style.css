@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f2f2f2;
+}
+
+.container{
+    width:500px;
+    margin:30px auto;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+h2,h3{
+    text-align:center;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    font-weight:bold;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    box-sizing:border-box;
+}
+
+button{
+    margin-top:20px;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+.buttons{
+    display:flex;
+    justify-content:space-between;
+}
+
+.error{
+    color:red;
+    font-size:13px;
+}
+
+#sessionUser{
+    margin-top:20px;
+    font-weight:bold;
+    color:green;
+}
+
+#output{
+    margin-top:15px;
+    background:#eeeeee;
+    padding:15px;
+    border-radius:8px;
+}
